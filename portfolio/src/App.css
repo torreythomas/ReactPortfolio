@@ -1,3 +1,25 @@
+
+
+
+  html {
+    background-color: rgb(4,15,33);
+    color: rgb(225,79,152);
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+  
+  .App {
+    font-family: 'Share Tech Mono', monospace;
+    height: 400vh;
+  }
+
+ .codenumbers{
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     line-height: .5px;
+ }
 .torrey {
     font-size: 12rem;
     /* font-family: 'Patua One', cursive; */
@@ -37,7 +59,7 @@
       
     }
     50% {
-      margin-left: 25vw;
+      margin-left: 20vw;
       
     }
     100% {
@@ -64,19 +86,12 @@
   }
   
   
-  .App {
-    font-family: 'Share Tech Mono', monospace;
-  }
-html {
-    background-color: rgb(4,15,33);
-    color: rgb(225,79,152);
-}
-
 
 
 .container{
     display: flex;
    align-items: center;
+   margin-left: 30px;
 }
 
 .nav-item{
@@ -94,6 +109,7 @@ html {
     position: fixed;
     font-size: 23px;
     margin: 5px;
+    margin-left: 15px;
     padding: 5px;
     color:rgb(250,208,73);
     animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
