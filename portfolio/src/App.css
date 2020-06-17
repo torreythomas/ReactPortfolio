@@ -1,0 +1,70 @@
+.torrey {
+    font-size: 15rem;
+    font-family: 'Fjalla One', sans-serif;
+    /* font-family: 'Patua One', cursive; */
+    line-height: 100px;
+    animation: fadeIn, horizontal-motion 6s;
+    animation-timing-function: ease-in-out;
+    margin-left: 5px;
+}
+
+.thomas{
+    font-size: 15rem;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: right;
+    /* font-family: 'Patua One', cursive; */
+    line-height: 150px;
+    animation: fadeIn, horizontal-motionR 6s;
+    animation-timing-function: ease-in-out;  
+    margin-left: 5px;
+}
+
+  
+  @keyframes horizontal-motion {
+    0% {
+      margin-left: 2px;
+      
+    }
+    50% {
+      margin-left: 25vw;
+      
+    }
+    100% {
+      margin-left: 10px;
+    }
+  }
+
+
+  @keyframes horizontal-motionR {
+    0% {
+        margin-left: 500px;
+      
+    }
+   
+  }
+  
+  
+html {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+
+
+.container{
+    display: flex;
+   align-items: center;
+}
+
+.nav-item{
+    list-style-type: none;
+    font-size: 20px;
+    margin: 40px;
+    animation: fadeIn, bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.navigation-bar{
+    position: absolute;
+    right: 100px;
+}
