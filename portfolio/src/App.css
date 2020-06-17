@@ -1,22 +1,33 @@
 .torrey {
-    font-size: 15rem;
-    font-family: 'Fjalla One', sans-serif;
+    font-size: 12rem;
     /* font-family: 'Patua One', cursive; */
     line-height: 100px;
-    animation: fadeIn, horizontal-motion 6s;
+    animation: fadeIn, horizontal-motion 5s;
     animation-timing-function: ease-in-out;
-    margin-left: 5px;
+    margin-left: 3px;
 }
 
+.web-dev{
+    font-size: 30px;
+    text-align: center;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    color: rgb(105,239,251);
+}
+
+
+
 .thomas{
-    font-size: 15rem;
-    font-family: 'Fjalla One', sans-serif;
+    font-size: 13rem;
     text-align: right;
     /* font-family: 'Patua One', cursive; */
     line-height: 150px;
-    animation: fadeIn, horizontal-motionR 6s;
+    animation: fadeIn, horizontal-motionR 5s;
     animation-timing-function: ease-in-out;  
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
   
@@ -42,11 +53,23 @@
     }
    
   }
+
+  .closing-tag {
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    font-size:100px;
+  }
   
   
+  .App {
+    font-family: 'Share Tech Mono', monospace;
+  }
 html {
-    background-color: #1a1a1a;
-    color: white;
+    background-color: rgb(4,15,33);
+    color: rgb(225,79,152);
 }
 
 
@@ -62,9 +85,99 @@ html {
     margin: 40px;
     animation: fadeIn, bounce; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    padding: 5px;
+}
+.social-media-links{
+    position: fixed;
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+    color:rgb(250,208,73);
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.top-bar {
+    margin: 5px;
+}
+
+.top-bar:hover{
+    color: rgb(225,79,152);
+}
+.nav-item:hover{
+    background-color: rgb(25,26,68);
 }
 
 .navigation-bar{
-    position: absolute;
+    position: fixed;
     right: 100px;
+    color: rgb(250,208,73);
 }
+
+.blinking-cursor {
+    font-weight: 100;
+    font-size: 30px;
+    color: #2E3D48;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+        color: rgb(105,239,251);
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+         color: rgb(105,239,251);
+    }
+  }
+  
+  @-webkit-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+         color: rgb(105,239,251);
+    }
+  }
+  
+  @-ms-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+         color: rgb(105,239,251);
+    }
+  }
+  
+  @-o-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+         color: rgb(105,239,251);
+    }
+  }
+
+  
+
+
+
+
