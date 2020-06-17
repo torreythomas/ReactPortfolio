@@ -20,11 +20,25 @@ function App() {
 </div>
 <div className="navigation-bar">
  <ul>
-   <li className="nav-item item-1"> Me </li>
-   <li className="nav-item item-2"> What I've Made</li>
+   <li className="nav-item item-1"> <a href="#home"> Me</a></li>
+   <li className="nav-item item-2"><a href="#about"> What I've Done</a></li>
    <li className="nav-item item-3"> Let's Talk</li>
    </ul>
 </div>
+</div>
+<div id="about">
+  <div className="photo"> </div>
+  <div className="about-text-container">
+  <h1 className="introduction"> Helloooooo! </h1>
+  <p className="text"> Torrey is a <strong className="bolder"> front-end web developer</strong> who moved to D.C to <br/> 
+  find his passion and purpose. He's young, driven, and a hufflepuff. (No matter how many times he retakes the quiz.)
+   </p>
+   <p className="text"> His focus is on creating <strong className="bolder"> functional and robust code.</strong> </p>
+
+   <p className="text"> When he's not coding he's usually <strong className="bolder"> making music, </strong> <br/>
+   playing video games, or hanging out with his brother. 
+   </p>
+  </div>
 </div>
     </div>
   );

@@ -192,8 +192,49 @@
     }
   }
 
-  
+  a{
+     text-decoration: none;
+     color: rgb(250,208,73);
+
+  }
+
+/* About section styles */
 
 
+#about{
+    width: 80vw;
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+}
 
+.photo {
+    background: url(./portfolioimg.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;  
+  width: 50vw;
+  height: 70vh;
+  border-radius: 40px;
+  margin-left: 20px;
+}
 
+.about-text-container{
+    width: 50vw;
+    text-align:left;
+    align-self: center;
+}
+
+.introduction {
+    font-size: 3em;
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
+.text{
+    line-height: 30px;
+    font-size: 16px;
+}
