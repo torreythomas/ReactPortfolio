@@ -21,7 +21,7 @@
      line-height: .5px;
  }
 .torrey {
-    font-size: 12rem;
+    font-size: 10rem;
     /* font-family: 'Patua One', cursive; */
     line-height: 100px;
     animation: fadeIn, horizontal-motion 5s;
@@ -43,7 +43,7 @@
 
 
 .thomas{
-    font-size: 13rem;
+    font-size: 10rem;
     text-align: right;
     /* font-family: 'Patua One', cursive; */
     line-height: 150px;
@@ -224,6 +224,8 @@
     width: 50vw;
     text-align:left;
     align-self: center;
+    background-color:black;
+    padding: 10px;
 }
 
 .introduction {
@@ -237,4 +239,36 @@
 .text{
     line-height: 30px;
     font-size: 16px;
+}
+
+
+/* Projects */
+
+#projects{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 50vh;
+  margin-top: 80vh;
+  flex-wrap: wrap;
+  width: 65vw;
+}
+
+.project{
+  width: 20vw;
+  height: 35vh;
+  background-color: white;
+}
+
+.project1 {
+  margin: 20px;
+}
+.project2 {
+  margin: 20px;
+}
+.project3 {
+  margin: 20px;
+}
+.project4 {
+  margin: 20px;
 }

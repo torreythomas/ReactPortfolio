@@ -16,12 +16,12 @@ function App() {
       <div className="container">
       <div id="home">
 <h1 className="torrey "><span className="closing-tag"><i class="fas fa-chevron-left"></i></span>Torrey </h1>
-    <h1 className="thomas "> Thomas<span className="closing-tag">/<i class="fas fa-chevron-right"></i></span> <p className="web-dev"> id="Web Developer"<span class="blinking-cursor">|</span> </p> </h1>
+    <h1 className="thomas "> Thomas<span className="closing-tag">/<i class="fas fa-chevron-right"></i></span> <p className="web-dev"> id="Web-Developer"<span class="blinking-cursor">|</span> </p> </h1>
 </div>
 <div className="navigation-bar">
  <ul>
-   <li className="nav-item item-1"> <a href="#home"> Me</a></li>
-   <li className="nav-item item-2"><a href="#about"> What I've Done</a></li>
+   <li className="nav-item item-1"> <a href="#about"> Me</a></li>
+   <li className="nav-item item-2"><a href="#projects"> What I've Done</a></li>
    <li className="nav-item item-3"> Let's Talk</li>
    </ul>
 </div>
@@ -39,6 +39,12 @@ function App() {
    playing video games, or hanging out with his brother. 
    </p>
   </div>
+</div>
+<div id="projects">
+<div className="project project1"></div>
+<div className="project project2"></div>
+<div className="project project3"></div>
+<div className="project project4"></div>
 </div>
     </div>
   );
