@@ -21,8 +21,8 @@
     align-items: center;
     position: fixed;
     top:0;
-    left: 75vw;
-    background-color: yellow;
+    left: 78vw;
+    background-color: rgb(250,208,73);
     width: 14vw;
     color: black;
     height: 15vh;
@@ -47,7 +47,7 @@
     height: 0;
     position:fixed;
     top:9vh;
-    left: 78.5vw;
+    left: 81.6vw;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-bottom: 50px solid rgb(4,15,33);
