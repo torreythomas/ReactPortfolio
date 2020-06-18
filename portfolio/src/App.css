@@ -11,7 +11,46 @@
   
   .App {
     font-family: 'Share Tech Mono', monospace;
-    height: 400vh;
+    height: 500vh;
+  }
+
+  .open-to-opportunities {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 75vw;
+    background-color: yellow;
+    width: 14vw;
+    color: black;
+    height: 15vh;
+    text-align: center;
+    font-size:18px;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .op-text {
+    margin-top: 20px;
+    padding: 2px;
+  }
+  .triangle{
+    width: 0;
+    height: 0;
+    position:fixed;
+    top:9vh;
+    left: 78.5vw;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid rgb(4,15,33);
   }
 
  .codenumbers{
@@ -233,6 +272,7 @@
 
 .introduction {
     font-size: 3em;
+    color: rgb(105,239,251);
 }
 
 .bolder{
@@ -370,3 +410,32 @@
   align-items: center;
 }
 
+/*  Resume Download Container */
+
+.resume-download-container {
+  margin-top: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65vw;
+}
+
+.resume-button {
+  border: 2px solid yellow;
+  width: 25vw;
+  text-align: center;
+  display: block;
+  position: relative;
+  padding: 1.5em 3em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+}
+
+.resume-button:hover{
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  border: 2px solid rgb(225,79,152);
+  color: rgb(225,79,152);
+  animation:heartBeat; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}

@@ -19,6 +19,12 @@ function App() {
     <h1 className="thomas "> Thomas<span className="closing-tag">/<i class="fas fa-chevron-right"></i></span> <p className="web-dev"> id="Web-Developer"<span class="blinking-cursor">|</span> </p> </h1>
 </div>
 <div className="navigation-bar">
+<div className="open-to-opportunities">
+  <p className="op-text"> Open to new opportunities </p>
+</div>
+<div className="triangle">
+
+</div>
  <ul>
    <li className="nav-item item-1"> <a href="#about"> Me</a></li>
    <li className="nav-item item-2"><a href="#projects"> What I've Done</a></li>
@@ -96,6 +102,16 @@ function App() {
   </a>
   </div>
 </div>
+
+
+<div className="resume-download-container">
+  <a href="https://drive.google.com/file/d/1tTXeUxEvOrJFE6Z5RfzHmtk9qYCXhvnt/view" className="resume-button" download >Resumé</a>
+  </div>
+
+<div id="footer">
+
+</div>
+
     </div>
   );
 }
