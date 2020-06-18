@@ -217,16 +217,18 @@
   width: 50vw;
   height: 70vh;
   border-radius: 40px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .about-text-container{
     width: 50vw;
-    text-align:left;
+    text-align:center;
     align-self: center;
-    background-color:black;
+    background-color: rgb(25,26,68);
     padding: 10px;
     color: rgb(250,208,73);
+    margin-left: -50px;
+    font-size:20px;
 }
 
 .introduction {
@@ -243,6 +245,48 @@
 }
 
 
+/* John Quote */
+
+
+.john-quote{
+  display: flex;
+  width: 50vw;
+  margin-left: 12vw;
+  margin-top: 20vh;
+  padding: 25px;
+  flex-direction: column;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  line-height: 5vh;
+  text-align: left;
+  animation: float 2s infinite;
+  background-color: rgb(25,26,68);
+  color: rgb(250,208,73);
+}
+
+
+.john{
+  color: rgb(105,239,251);
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+
 /* Projects */
 
 #projects{
@@ -250,7 +294,7 @@
   align-items:center;
   justify-content: center;
   height: 50vh;
-  margin-top: 80vh;
+  margin-top: 30vh;
   flex-wrap: wrap;
   width: 65vw;
 }
@@ -263,13 +307,66 @@
 
 .project1 {
   margin: 20px;
+  background: url(./projectimages/api.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
 }
 .project2 {
   margin: 20px;
+  background: url(./projectimages/refulgence.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
 }
 .project3 {
   margin: 20px;
+  background: url(./seeemoore.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
 }
 .project4 {
   margin: 20px;
+  background: url(./projectimages/hangman.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
 }
+
+.service-wrapper{
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  margin: 20px;
+}
+
+.service-wrapper-inner {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 235px;
+  padding: 15px 20px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  background: rgba(32,32,32,0.9);
+  color: rgb(225,79,152);
+}
+
+.service-wrapper:hover{
+  top: 0px;
+}
+
+.service-wrapper-inner:hover {
+  top:0px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+

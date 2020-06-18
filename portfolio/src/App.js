@@ -40,11 +40,61 @@ function App() {
    </p>
   </div>
 </div>
+
+<div className="john-quote">
+  <p>"Torrey came into our program as one of the <br/>youngest students I've ever taught and consistently outperformed what I was expecting".
+  <p><strong className="bolder rec">"He has my highest recommendation". </strong></p> </p>
+  <p className="john"> - John Serrao, General Assembly Instructor</p>
+</div>
+
+
 <div id="projects">
-<div className="project project1"></div>
-<div className="project project2"></div>
-<div className="project project3"></div>
-<div className="project project4"></div>
+  <div className='service-wrapper'>
+  <a href="https://fathomless-plateau-83900.herokuapp.com/countries" className="service-link">
+  <div className="project project1"></div>
+  <div className='service-wrapper-inner'>
+    <h2> Countries API</h2>
+    <div className="description">
+      <p className="project-description"> A restful api able to retrieve various countries.</p>
+    </div>
+  </div>
+  </a>
+  </div>
+
+  <div className='service-wrapper'>
+  <a href="https://refulgence.netlify.app/" className="service-link">
+  <div className="project project2"></div>
+  <div className='service-wrapper-inner'>
+    <h2> Refulgence</h2>
+    <div className="description">
+      <p className="project-description"> A learning revitalization application</p>
+    </div>
+  </div>
+  </a>
+  </div>
+  <div className='service-wrapper'>
+  <a href="https://smgfoundation.netlify.app/" className="service-link">
+  <div className="project project3"></div>
+  <div className='service-wrapper-inner'>
+    <h2> See More Good</h2>
+    <div className="description">
+      <p className="project-description"> The official See More Good foundation page.</p>
+    </div>
+  </div>
+  </a>
+  </div>
+
+  <div className='service-wrapper'>
+  <a href="https://torreythomas.github.io/Hangman/" className="service-link">
+  <div className="project project4"></div>
+  <div className='service-wrapper-inner'>
+    <h2> Hangman</h2>
+    <div className="description">
+      <p className="project-description"> A halloween-themed hangman application. </p>
+    </div>
+  </div>
+  </a>
+  </div>
 </div>
     </div>
   );
