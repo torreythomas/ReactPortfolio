@@ -111,8 +111,8 @@ function App() {
 <div id="footer">
 <h2> Like what you see? Let's connect! </h2>
 <div className="call-or-email">
-<i className="fas ce fa-envelope-square"></i>
-<i className="fas ce fa-phone-square-alt"></i>
+<a href="mailto:torreythms@gmail.com"><i className="fas ce fa-envelope-square"></i></a>
+<a href="tel:7174216943"><i className="fas ce fa-phone-square-alt"></i></a>
 </div>
 </div>
 
