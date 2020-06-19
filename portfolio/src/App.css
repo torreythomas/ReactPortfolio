@@ -14,6 +14,8 @@
     height: 500vh;
   }
 
+
+  /*  Landing page styles */
   .open-to-opportunities {
     display: flex;
     justify-content: flex-start;
@@ -434,3 +436,411 @@
   animation:heartBeat; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s;
 }
+
+/* Footer styles */
+
+#footer {
+  height: 70vh;
+  width: 65vw;
+  margin-top: 15vh;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.call-or-email{
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
+  font-size: 150px;
+  margin: 30px;
+  padding: 10px;
+  animation: float 2s infinite;
+}
+.ce:hover{
+  color: yellow;
+}
+.end-text-centered{
+  text-align: center;
+}
+
+
+
+/*  responsive design  */
+
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+  .open-to-opportunities {
+display: none;
+  }
+
+ .codenumbers{
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     line-height: .5px;
+ }
+.torrey {
+    font-size: 4rem;
+    /* font-family: 'Patua One', cursive; */
+    line-height: 100px;
+    animation: fadeIn, horizontal-motion 3s;
+    animation-timing-function: ease-in-out;
+    margin-left: 0px;
+    margin-top: 130px;
+}
+
+.web-dev{
+    font-size: 20px;
+    text-align: center;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    color: rgb(105,239,251);
+}
+
+@keyframes horizontal-motion {
+  0% {
+    margin-left: -300px;
+    
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+
+@keyframes horizontal-motionR {
+  0% {
+    margin-left: -300px;
+    
+  }
+  100% {
+    margin-left: 0px;
+  }
+ 
+}
+
+
+.thomas{
+    font-size: 4rem;
+    text-align: right;
+    /* font-family: 'Patua One', cursive; */
+    line-height: 10px;
+    animation: fadeIn, horizontal-motionR 3s;
+    animation-timing-function: ease-in-out;  
+    margin-left: 0px;
+}
+
+  
+
+  .closing-tag {
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    font-size:30px;
+  }
+  
+  
+
+
+.container{
+    display: flex;
+   align-items: center;
+  width: 100vw;
+  margin-left: 20vw;
+}
+
+.nav-item{
+    list-style-type: none;
+    font-size: 12px;
+    margin: 40px;
+    animation: fadeIn, bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    padding: 5px;
+    visibility: hidden;
+}
+.social-media-links{
+    position: fixed;
+    font-size: 23px;
+    margin: 5px;
+    margin-left: 15px;
+    padding: 5px;
+    color:rgb(250,208,73);
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.top-bar {
+    margin: 5px;
+}
+
+.top-bar:hover{
+    color: rgb(225,79,152);
+}
+.nav-item:hover{
+    background-color: rgb(25,26,68);
+}
+
+.navigation-bar{
+    position: fixed;
+    right: -30px;
+    color: rgb(250,208,73);
+    margin-top: 40px;
+}
+
+.triangle {
+  visibility: hidden;
+}
+
+  a{
+     text-decoration: none;
+     color: rgb(250,208,73);
+  }
+
+
+
+/* About section styles */
+
+
+#about{
+  width: 80vw;
+  margin-top: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.photo {
+  background: url(./portfolioimg.jpg) no-repeat center center; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: contain;  
+width: 70vw;
+height: 70vh;
+border-radius: 40px;
+margin-left:70px;
+}
+
+.about-text-container{
+  width: 90vw;
+  text-align:center;
+  align-self: center;
+  background-color: rgb(25,26,68);
+  padding: 10px;
+  color: rgb(250,208,73);
+  margin-left: 20vw;
+  font-size:20px;
+}
+
+.introduction {
+  font-size: 2em;
+  color: rgb(105,239,251);
+}
+
+.bolder{
+  font-weight: bolder;
+}
+
+.text{
+  line-height: 30px;
+  font-size: 13px;
+}
+
+
+/* John Quote */
+
+
+.john-quote{
+display: flex;
+width: 90vw;
+margin-left: 5vw;
+margin-top: 20vh;
+padding: 25px;
+flex-direction: column;
+height: 50vh;
+align-items: center;
+justify-content: center;
+font-size: 15px;
+line-height: 5vh;
+text-align: left;
+animation: float 2s infinite;
+background-color: rgb(25,26,68);
+color: rgb(250,208,73);
+}
+
+
+.john{
+color: rgb(105,239,251);
+}
+
+
+/* Projects */
+
+#projects{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 120vh;
+  margin-top: 30vh;
+  flex-wrap: wrap;
+  width: 95vw;
+}
+
+.project{
+  width: 50vw;
+  height: 33vh;
+  background-color: white;
+}
+
+.project1 {
+  margin: 20px;
+  background: url(./projectimages/api.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
+.project2 {
+  margin: 20px;
+  background: url(./projectimages/refulgence.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
+.project3 {
+  margin: 20px;
+  background: url(./seeemoore.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
+.project4 {
+  margin: 20px;
+  background: url(./projectimages/hangman.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
+
+.service-wrapper{
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  margin: 20px;
+}
+
+.service-wrapper-inner {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 235px;
+  padding: 15px 20px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  background: rgba(32,32,32,0.9);
+  color: rgb(225,79,152);
+}
+
+.service-wrapper:hover{
+  top: 0px;
+}
+
+.service-wrapper-inner:hover {
+  top:0px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  Resume Download Container */
+
+.resume-download-container {
+  margin-top: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65vw;
+}
+
+.resume-button {
+  border: 2px solid yellow;
+  width: 50vw;
+  margin-left: 32vw;
+  text-align: center;
+  display: block;
+  position: relative;
+  padding: 1.5em 3em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+}
+
+.resume-button:hover{
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  border: 2px solid rgb(225,79,152);
+  color: rgb(225,79,152);
+  animation:heartBeat; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}
+
+#footer {
+  height: 70vh;
+  width: 100vw;
+  margin-top: 15vh;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.call-or-email{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  font-size: 150px;
+  margin: 20px;
+  margin-left: -20px;
+  padding: 10px;
+  animation: float 2s infinite;
+}
+.ce:hover{
+  color: yellow;
+}
+.end-text-centered{
+ visibility: hidden;
+}
+
+
+ }
+
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+
+ }
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+
+ }
+
+@media only screen and (min-width: 992px){ 
+
+ }

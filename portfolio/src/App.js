@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <div className="social-media-links">
-        <i class="fab grow top-bar  fa-linkedin"></i> 
-        <i class="fab grow top-bar  fa-github-square"></i>
-        <i class="fab grow top-bar fa-medium"></i>
+       <a href="https://www.linkedin.com/in/torrey-thomas-aa545a186/"><i class="fab  fa-linkedin"></i> </a>
+       <a href="https://github.com/torreythomas"> <i class="fab grow top-bar  fa-github-square"></i></a>
+        <a href='https://medium.com/@torreythms'><i class="fab grow top-bar fa-medium"></i></a>
         </div>
         <div className="codenumbers">
   <p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p><p>7</p><p>8</p><p>9</p><p>10</p><p>11</p><p>12</p><p>13</p><p>14</p><p>15</p><p>16</p><p>17</p><p>18</p><p>19</p><p>20</p> <p>21</p><p>22</p><p>23</p><p>24</p><p>25</p>
@@ -28,7 +28,7 @@ function App() {
  <ul>
    <li className="nav-item item-1"> <a href="#about"> Me</a></li>
    <li className="nav-item item-2"><a href="#projects"> What I've Done</a></li>
-   <li className="nav-item item-3"> Let's Talk</li>
+   <li className="nav-item item-3"> <a href="#footer"> Let's Talk</a></li>
    </ul>
 </div>
 </div>
@@ -109,9 +109,14 @@ function App() {
   </div>
 
 <div id="footer">
-
+<h2> Like what you see? Let's connect! </h2>
+<div className="call-or-email">
+<i className="fas ce fa-envelope-square"></i>
+<i className="fas ce fa-phone-square-alt"></i>
+</div>
 </div>
 
+<p className="end-text-centered"> This portfolio was created from scratch by Torrey Thomas</p>
     </div>
   );
 }
