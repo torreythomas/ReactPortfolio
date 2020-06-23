@@ -55,17 +55,6 @@ function App() {
 
 
 <div id="projects">
-  <div className='service-wrapper'>
-  <a href="https://fathomless-plateau-83900.herokuapp.com/countries" className="service-link">
-  <div className="project project1"></div>
-  <div className='service-wrapper-inner'>
-    <h2> Countries API</h2>
-    <div className="description">
-      <p className="project-description"> A restful api able to retrieve various countries.</p>
-    </div>
-  </div>
-  </a>
-  </div>
 
   <div className='service-wrapper'>
   <a href="https://refulgence.netlify.app/" className="service-link">
@@ -97,6 +86,18 @@ function App() {
     <h2> Hangman</h2>
     <div className="description">
       <p className="project-description"> A halloween-themed hangman application. </p>
+    </div>
+  </div>
+  </a>
+  </div>
+
+  <div className='service-wrapper'>
+  <a href="https://dowearyllc.netlify.app/" className="service-link">
+  <div className="project project5"></div>
+  <div className='service-wrapper-inner'>
+    <h2> Michael Doweary LLC</h2>
+    <div className="description">
+      <p className="project-description"> A tax planning and consulting site </p>
     </div>
   </div>
   </a>
